@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RACFRCTests/RACFRCTests.swift"
+            timestampString = "479947848.464784"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "testInsertingRows()"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RACFRCTests.RACFRCTests.testExample (RACFRCTests.RACFRCTests)() -&gt; ()"
+                  moduleName = "RACFRCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/apps/RACFRC/RACFRCTests/RACFRCTests.swift"
+                  timestampString = "479934214.984551"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "286">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RACFRCTests.RACFRCTests.(testExample (RACFRCTests.RACFRCTests) -&gt; () -&gt; ()).(closure #1)"
+                  moduleName = "RACFRCTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/apps/RACFRC/RACFRCTests/RACFRCTests.swift"
+                  timestampString = "479934214.984751"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RACFRC/RACFRC.swift"
+            timestampString = "479939529.872745"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "controller(_:didChangeObject:atIndexPath:forChangeType:newIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RACFRC/RACFRC.swift"
+            timestampString = "479939530.990584"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "controller(_:didChangeObject:atIndexPath:forChangeType:newIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RACFRC/RACFRC.swift"
+            timestampString = "479947840.989911"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "RACFRC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RACFRC.RACFRC.init &lt;A&gt; (RACFRC.RACFRC&lt;A&gt;.Type)(frc : Swift.Optional&lt;__ObjC.NSFetchedResultsController&gt;, property : RACFRC.MutableCollectionProperty&lt;RACFRC.RACFRCSection&lt;A&gt;&gt;) -&gt; RACFRC.RACFRC&lt;A&gt;"
+                  moduleName = "RACFRC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/apps/RACFRC/RACFRC/RACFRC.swift"
+                  timestampString = "479948040.179496"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RACFRC.RACFRC.(property in _66E0EF0F69E841046B2D8339D8BA63C9).getter : weak Swift.Optional&lt;RACFRC.MutableCollectionProperty&lt;RACFRC.RACFRCSection&lt;A&gt;&gt;&gt;"
+                  moduleName = "RACFRC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/apps/RACFRC/RACFRC/RACFRC.swift"
+                  timestampString = "479948040.179741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "33">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RACFRC.RACFRC.(property in _66E0EF0F69E841046B2D8339D8BA63C9).setter : weak Swift.Optional&lt;RACFRC.MutableCollectionProperty&lt;RACFRC.RACFRCSection&lt;A&gt;&gt;&gt;"
+                  moduleName = "RACFRC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/apps/RACFRC/RACFRC/RACFRC.swift"
+                  timestampString = "479948040.180024"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RACFRC.RACFRC.(property in _66E0EF0F69E841046B2D8339D8BA63C9).materializeForSet : weak Swift.Optional&lt;RACFRC.MutableCollectionProperty&lt;RACFRC.RACFRCSection&lt;A&gt;&gt;&gt;"
+                  moduleName = "RACFRC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ak/apps/RACFRC/RACFRC/RACFRC.swift"
+                  timestampString = "479948040.180315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "87D6CFF2B83BB706A3114A5268F000EAD5C8EFC1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "258E3284E5347A22CB184C2CE3113E47B537C14B" : 0,
+    "87D6CFF2B83BB706A3114A5268F000EAD5C8EFC1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88958A8A-F24C-45C7-8BF0-493BF2AFE8F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "258E3284E5347A22CB184C2CE3113E47B537C14B" : "RAC-MutableCollectionProperty\/",
+    "87D6CFF2B83BB706A3114A5268F000EAD5C8EFC1" : "RACFRC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RACFRC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RACFRC.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andykog\/RAC-MutableCollectionProperty.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "258E3284E5347A22CB184C2CE3113E47B537C14B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andykog\/RACFRC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87D6CFF2B83BB706A3114A5268F000EAD5C8EFC1"
+    }
+  ]
+}
