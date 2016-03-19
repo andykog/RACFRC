@@ -4,11 +4,13 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8BA2CF00F236B9A5D9EF0D58BED1495F0F19AA61" : 0,
     "258E3284E5347A22CB184C2CE3113E47B537C14B" : 0,
     "87D6CFF2B83BB706A3114A5268F000EAD5C8EFC1" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88958A8A-F24C-45C7-8BF0-493BF2AFE8F0",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8BA2CF00F236B9A5D9EF0D58BED1495F0F19AA61" : "",
     "258E3284E5347A22CB184C2CE3113E47B537C14B" : "RAC-MutableCollectionProperty\/",
     "87D6CFF2B83BB706A3114A5268F000EAD5C8EFC1" : "RACFRC\/"
   },
@@ -25,6 +27,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/andykog\/RACFRC.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87D6CFF2B83BB706A3114A5268F000EAD5C8EFC1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.zae.cc:iOS\/essayshark.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8BA2CF00F236B9A5D9EF0D58BED1495F0F19AA61"
     }
   ]
 }

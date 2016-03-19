@@ -13,5 +13,6 @@ class File: NSManagedObject {
 
     @NSManaged var id: NSNumber
     @NSManaged var section: String
+    @NSManaged var someProp: String
 
 }

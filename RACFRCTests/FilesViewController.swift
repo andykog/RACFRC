@@ -32,6 +32,14 @@ class FilesViewController: UIViewController {
                 let indexPath = NSIndexPath(forRow: indexPath[0], inSection: indexPath[1])
                 self.tableView?.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
             }
+        case .Update(let (indexPath, _)):
+            if indexPath.count < 2 {
+                self.tableView.reloadSections(NSIndexSet(index: indexPath[0]), withRowAnimation: .Fade)
+            } else {
+                let indexPath = NSIndexPath(forRow: indexPath[1], inSection: indexPath[0])
+                self.tableView.reloadRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+            }
+            
         case .Composite(let changes):
             self.tableView.beginUpdates()
             changes.forEach { self.handleChange($0) }

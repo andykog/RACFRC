@@ -109,19 +109,15 @@ class RACFRCTests: XCTestCase {
         self.filesViewModel = FilesViewModel()
         
         self.disposables += self.filesViewModel.files.changes.startWithNext { change in
-            if case .Composite(let changes) = change where changes.first?.element is File {
-                let indexPath = changes.map({$0.indexPath!})
-                let elements = changes.map({$0.element as! File})
-                let operations = changes.map({$0.operation!})
-                XCTAssertEqual(indexPath, [[0, 0], [0, 0]])
-                XCTAssertEqual(elements, [myFiles[0], myFiles[0]])
-                XCTAssertEqual(operations, [.Removal, .Insertion])
+            if case .Update(let indexPath, let file) = change {
+                XCTAssertEqual(indexPath, [0, 0])
+                XCTAssertEqual(file as? File, myFiles[0])
                 expectation.fulfill()
             }
         }
         
         dispatch_async(dispatch_get_main_queue()) {
-            myFiles[0].id = -1
+            myFiles[0].someProp = "changed"
         }
         
         waitForExpectationsWithTimeout(NSTimeInterval(1)) { self.testFinished($0) }

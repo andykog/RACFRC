@@ -3,8 +3,9 @@
     <entity name="File" representedClassName=".File" syncable="YES">
         <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="section" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="someProp" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="File" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="File" positionX="-63" positionY="-18" width="128" height="90"/>
     </elements>
 </model>
