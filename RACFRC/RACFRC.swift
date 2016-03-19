@@ -133,7 +133,7 @@ public class RACFRC<T>: NSObject, NSFetchedResultsControllerDelegate {
             }
             
         case .Update:
-            self.property?.replace(element: anObject as! NSManagedObject, atIndexPath: indexPath!)
+            self.property?.replace(elementAtIndexPath: indexPath!, withElement: anObject)
             
         case .Move:
             self.property?.move(fromIndexPath: indexPath!, toIndexPath: newIndexPath!)
