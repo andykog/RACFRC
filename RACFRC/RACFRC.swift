@@ -7,7 +7,7 @@ import enum Result.NoError
 public class RACFRCSection<T>: MutableCollectionProperty<T> {
     let name: String?
     let indexTitle: String?
-    init(objects: [T], sectionName name: String?, indexTitle: String?) {
+    init(objects: [T], sectionName name: String? = nil, indexTitle: String? = nil) {
         self.name = name
         self.indexTitle = indexTitle
         super.init(objects)
