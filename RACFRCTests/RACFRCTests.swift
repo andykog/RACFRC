@@ -38,9 +38,9 @@ class RACFRCTests: XCTestCase {
         self.filesViewModel = FilesViewModel()
         
         self.disposables += self.filesViewModel.files.changes.startWithNext { change in
-            if case .Composite(let changes) = change where changes.first?.element is File {
+            if case .Composite(let changes) = change where changes.first?.newElement is File {
                 let indexPath = changes.map({$0.indexPath!})
-                let elements = changes.map({$0.element as! File})
+                let elements = changes.map({$0.newElement as! File})
                 let operations = changes.map({$0.operation!})
                 XCTAssertEqual(indexPath, [[0, 1], [0, 2]])
                 XCTAssertEqual(elements, [insertedFiles[0], insertedFiles[1]])
@@ -62,9 +62,9 @@ class RACFRCTests: XCTestCase {
         self.filesViewModel = FilesViewModel()
         
         self.disposables += self.filesViewModel.files.changes.startWithNext { change in
-            if case .Composite(let changes) = change where changes.first?.element is File {
+            if case .Composite(let changes) = change where changes.first?.oldElement is File {
                 let indexPath = changes.map({$0.indexPath!})
-                let elements = changes.map({$0.element as! File})
+                let elements = changes.map({$0.oldElement as! File})
                 let operations = changes.map({$0.operation!})
                 XCTAssertEqual(indexPath, [[0, 2], [0, 1]])
                 XCTAssertEqual(elements, [removedFiles[1], removedFiles[0]])
@@ -85,9 +85,9 @@ class RACFRCTests: XCTestCase {
         self.filesViewModel = FilesViewModel()
         
         self.disposables += self.filesViewModel.files.changes.startWithNext { change in
-            if case .Composite(let changes) = change where changes.first?.element is File {
+            if case .Composite(let changes) = change where changes.first?.oldElement is File {
                 let indexPath = changes.map({$0.indexPath!})
-                let elements = changes.map({$0.element as! File})
+                let elements = changes.map({($0.oldElement ?? $0.newElement) as! File})
                 let operations = changes.map({$0.operation!})
                 XCTAssertEqual(indexPath, [[0, 0], [0, 3]])
                 XCTAssertEqual(elements, [myFiles[0], myFiles[0]])
@@ -109,9 +109,10 @@ class RACFRCTests: XCTestCase {
         self.filesViewModel = FilesViewModel()
         
         self.disposables += self.filesViewModel.files.changes.startWithNext { change in
-            if case .Update(let indexPath, let file) = change {
+            if case .Update(let indexPath, let oldFile, let newFile) = change {
                 XCTAssertEqual(indexPath, [0, 0])
-                XCTAssertEqual(file as? File, myFiles[0])
+                XCTAssertEqual(oldFile as? File, myFiles[0])
+                XCTAssertEqual(newFile as? File, myFiles[0])
                 expectation.fulfill()
             }
         }

@@ -8,21 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		416313151C9AFBCA003C3368 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416313141C9AFBCA003C3368 /* FilesViewController.swift */; };
+		4164331A1CBAEAA400ED7B15 /* MutableCollectionProperty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416433181CBAEA2E00ED7B15 /* MutableCollectionProperty.framework */; };
+		416433201CBAEC6F00ED7B15 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164331E1CBAEC6F00ED7B15 /* ReactiveCocoa.framework */; };
+		416433211CBAEC6F00ED7B15 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164331F1CBAEC6F00ED7B15 /* Result.framework */; };
 		41902ADC1C997CAF00022F95 /* RACFRC.h in Headers */ = {isa = PBXBuildFile; fileRef = 41902ADB1C997CAF00022F95 /* RACFRC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41902AE31C997CB000022F95 /* RACFRC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41902AD81C997CAF00022F95 /* RACFRC.framework */; };
 		41902AE81C997CB000022F95 /* RACFRCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902AE71C997CB000022F95 /* RACFRCTests.swift */; };
 		41902AF31C997CF100022F95 /* RACFRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902AF21C997CF100022F95 /* RACFRC.swift */; };
-		41902AFF1C9980C700022F95 /* Array+diff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902AF81C9980C700022F95 /* Array+diff.swift */; };
-		41902B001C9980C700022F95 /* FlatMutableCollectionChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902AF91C9980C700022F95 /* FlatMutableCollectionChange.swift */; };
-		41902B011C9980C700022F95 /* MutableCollectionChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902AFA1C9980C700022F95 /* MutableCollectionChange.swift */; };
-		41902B021C9980C700022F95 /* MutableCollectionChangeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902AFB1C9980C700022F95 /* MutableCollectionChangeOperation.swift */; };
-		41902B031C9980C700022F95 /* MutableCollectionProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 41902AFC1C9980C700022F95 /* MutableCollectionProperty.h */; };
-		41902B041C9980C700022F95 /* MutableCollectionProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902AFD1C9980C700022F95 /* MutableCollectionProperty.swift */; };
-		41902B051C9980C700022F95 /* WeakSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902AFE1C9980C700022F95 /* WeakSet.swift */; };
-		41902B121C9982F800022F95 /* ReactiveCocoa.framework in Resources */ = {isa = PBXBuildFile; fileRef = 41902B101C9982F800022F95 /* ReactiveCocoa.framework */; };
-		41902B131C9982F800022F95 /* Result.framework in Resources */ = {isa = PBXBuildFile; fileRef = 41902B111C9982F800022F95 /* Result.framework */; };
-		41902B141C9982FE00022F95 /* ReactiveCocoa.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 41902B101C9982F800022F95 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		41902B151C9982FE00022F95 /* Result.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 41902B111C9982F800022F95 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41902B5A1C99CA9200022F95 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902B571C99C98400022F95 /* File.swift */; };
 		41902B5B1C99CA9200022F95 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41902B531C99C93900022F95 /* Model.xcdatamodeld */; };
 		41902B5D1C99CE4F00022F95 /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41902B5C1C99CE4F00022F95 /* CoreDataHelper.swift */; };
@@ -46,8 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				41902B141C9982FE00022F95 /* ReactiveCocoa.framework in Copy Frameworks */,
-				41902B151C9982FE00022F95 /* Result.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		416313141C9AFBCA003C3368 /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		416433181CBAEA2E00ED7B15 /* MutableCollectionProperty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MutableCollectionProperty.framework; path = Carthage/Build/iOS/MutableCollectionProperty.framework; sourceTree = "<group>"; };
+		4164331E1CBAEC6F00ED7B15 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		4164331F1CBAEC6F00ED7B15 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		41902AD81C997CAF00022F95 /* RACFRC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RACFRC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41902ADB1C997CAF00022F95 /* RACFRC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACFRC.h; sourceTree = "<group>"; };
 		41902ADD1C997CAF00022F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,15 +56,6 @@
 		41902AE71C997CB000022F95 /* RACFRCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACFRCTests.swift; sourceTree = "<group>"; };
 		41902AE91C997CB000022F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41902AF21C997CF100022F95 /* RACFRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RACFRC.swift; sourceTree = "<group>"; };
-		41902AF81C9980C700022F95 /* Array+diff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+diff.swift"; path = "../../RAC-MutableCollectionProperty/MutableCollectionProperty/Array+diff.swift"; sourceTree = "<group>"; };
-		41902AF91C9980C700022F95 /* FlatMutableCollectionChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlatMutableCollectionChange.swift; path = "../../RAC-MutableCollectionProperty/MutableCollectionProperty/FlatMutableCollectionChange.swift"; sourceTree = "<group>"; };
-		41902AFA1C9980C700022F95 /* MutableCollectionChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MutableCollectionChange.swift; path = "../../RAC-MutableCollectionProperty/MutableCollectionProperty/MutableCollectionChange.swift"; sourceTree = "<group>"; };
-		41902AFB1C9980C700022F95 /* MutableCollectionChangeOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MutableCollectionChangeOperation.swift; path = "../../RAC-MutableCollectionProperty/MutableCollectionProperty/MutableCollectionChangeOperation.swift"; sourceTree = "<group>"; };
-		41902AFC1C9980C700022F95 /* MutableCollectionProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MutableCollectionProperty.h; path = "../../RAC-MutableCollectionProperty/MutableCollectionProperty/MutableCollectionProperty.h"; sourceTree = "<group>"; };
-		41902AFD1C9980C700022F95 /* MutableCollectionProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MutableCollectionProperty.swift; path = "../../RAC-MutableCollectionProperty/MutableCollectionProperty/MutableCollectionProperty.swift"; sourceTree = "<group>"; };
-		41902AFE1C9980C700022F95 /* WeakSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeakSet.swift; path = "../../RAC-MutableCollectionProperty/MutableCollectionProperty/WeakSet.swift"; sourceTree = "<group>"; };
-		41902B101C9982F800022F95 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../RAC-MutableCollectionProperty/Carthage/Build/iOS/ReactiveCocoa.framework"; sourceTree = "<group>"; };
-		41902B111C9982F800022F95 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = "../RAC-MutableCollectionProperty/Carthage/Build/iOS/Result.framework"; sourceTree = "<group>"; };
 		41902B541C99C93900022F95 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		41902B571C99C98400022F95 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		41902B5C1C99CE4F00022F95 /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
@@ -83,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4164331A1CBAEAA400ED7B15 /* MutableCollectionProperty.framework in Frameworks */,
+				416433201CBAEC6F00ED7B15 /* ReactiveCocoa.framework in Frameworks */,
+				416433211CBAEC6F00ED7B15 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +87,9 @@
 		41902ACE1C997CAF00022F95 = {
 			isa = PBXGroup;
 			children = (
-				41902B101C9982F800022F95 /* ReactiveCocoa.framework */,
-				41902B111C9982F800022F95 /* Result.framework */,
+				4164331E1CBAEC6F00ED7B15 /* ReactiveCocoa.framework */,
+				4164331F1CBAEC6F00ED7B15 /* Result.framework */,
+				416433181CBAEA2E00ED7B15 /* MutableCollectionProperty.framework */,
 				41902ADA1C997CAF00022F95 /* RACFRC */,
 				41902AE61C997CB000022F95 /* RACFRCTests */,
 			);
@@ -120,13 +108,6 @@
 		41902ADA1C997CAF00022F95 /* RACFRC */ = {
 			isa = PBXGroup;
 			children = (
-				41902AF81C9980C700022F95 /* Array+diff.swift */,
-				41902AF91C9980C700022F95 /* FlatMutableCollectionChange.swift */,
-				41902AFA1C9980C700022F95 /* MutableCollectionChange.swift */,
-				41902AFB1C9980C700022F95 /* MutableCollectionChangeOperation.swift */,
-				41902AFC1C9980C700022F95 /* MutableCollectionProperty.h */,
-				41902AFD1C9980C700022F95 /* MutableCollectionProperty.swift */,
-				41902AFE1C9980C700022F95 /* WeakSet.swift */,
 				41902ADB1C997CAF00022F95 /* RACFRC.h */,
 				41902AF21C997CF100022F95 /* RACFRC.swift */,
 				41902ADD1C997CAF00022F95 /* Info.plist */,
@@ -156,7 +137,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41902B031C9980C700022F95 /* MutableCollectionProperty.h in Headers */,
 				41902ADC1C997CAF00022F95 /* RACFRC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,39 +144,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		41902AD71C997CAF00022F95 /* RACFRC */ = {
+		41902AD71C997CAF00022F95 /* RACFRC-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41902AEC1C997CB000022F95 /* Build configuration list for PBXNativeTarget "RACFRC" */;
+			buildConfigurationList = 41902AEC1C997CB000022F95 /* Build configuration list for PBXNativeTarget "RACFRC-iOS" */;
 			buildPhases = (
 				41902AD31C997CAF00022F95 /* Sources */,
 				41902AD41C997CAF00022F95 /* Frameworks */,
 				41902AD51C997CAF00022F95 /* Headers */,
 				41902AD61C997CAF00022F95 /* Resources */,
+				4164331C1CBAEB9300ED7B15 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = RACFRC;
+			name = "RACFRC-iOS";
 			productName = RACFRC;
 			productReference = 41902AD81C997CAF00022F95 /* RACFRC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		41902AE11C997CB000022F95 /* RACFRCTests */ = {
+		41902AE11C997CB000022F95 /* RACFRC-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41902AEF1C997CB000022F95 /* Build configuration list for PBXNativeTarget "RACFRCTests" */;
+			buildConfigurationList = 41902AEF1C997CB000022F95 /* Build configuration list for PBXNativeTarget "RACFRC-iOSTests" */;
 			buildPhases = (
 				41902ADE1C997CB000022F95 /* Sources */,
 				41902ADF1C997CB000022F95 /* Frameworks */,
 				41902AE01C997CB000022F95 /* Resources */,
 				41902B0B1C99827F00022F95 /* Copy Frameworks */,
+				4164331D1CBAEBC100ED7B15 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				41902AE51C997CB000022F95 /* PBXTargetDependency */,
 			);
-			name = RACFRCTests;
+			name = "RACFRC-iOSTests";
 			productName = RACFRCTests;
 			productReference = 41902AE21C997CB000022F95 /* RACFRCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -231,8 +213,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41902AD71C997CAF00022F95 /* RACFRC */,
-				41902AE11C997CB000022F95 /* RACFRCTests */,
+				41902AD71C997CAF00022F95 /* RACFRC-iOS */,
+				41902AE11C997CB000022F95 /* RACFRC-iOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,25 +231,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41902B121C9982F800022F95 /* ReactiveCocoa.framework in Resources */,
-				41902B131C9982F800022F95 /* Result.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4164331C1CBAEB9300ED7B15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/MutableCollectionProperty.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		4164331D1CBAEBC100ED7B15 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/MutableCollectionProperty.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		41902AD31C997CAF00022F95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41902B011C9980C700022F95 /* MutableCollectionChange.swift in Sources */,
-				41902AFF1C9980C700022F95 /* Array+diff.swift in Sources */,
-				41902B001C9980C700022F95 /* FlatMutableCollectionChange.swift in Sources */,
-				41902B021C9980C700022F95 /* MutableCollectionChangeOperation.swift in Sources */,
 				41902AF31C997CF100022F95 /* RACFRC.swift in Sources */,
-				41902B041C9980C700022F95 /* MutableCollectionProperty.swift in Sources */,
-				41902B051C9980C700022F95 /* WeakSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +298,7 @@
 /* Begin PBXTargetDependency section */
 		41902AE51C997CB000022F95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 41902AD71C997CAF00022F95 /* RACFRC */;
+			target = 41902AD71C997CAF00022F95 /* RACFRC-iOS */;
 			targetProxy = 41902AE41C997CB000022F95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -394,13 +403,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = RACFRC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.frogprog.RACFRC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -416,13 +426,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/Carthage/Build/iOS",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = RACFRC/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.frogprog.RACFRC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -432,12 +443,12 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(SRCROOT)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = RACFRCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.frogprog.RACFRCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 			};
 			name = Debug;
 		};
@@ -446,12 +457,12 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(SRCROOT)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = RACFRCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.frogprog.RACFRCTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(PROJECT_NAME)Tests";
 			};
 			name = Release;
 		};
@@ -467,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41902AEC1C997CB000022F95 /* Build configuration list for PBXNativeTarget "RACFRC" */ = {
+		41902AEC1C997CB000022F95 /* Build configuration list for PBXNativeTarget "RACFRC-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41902AED1C997CB000022F95 /* Debug */,
@@ -476,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41902AEF1C997CB000022F95 /* Build configuration list for PBXNativeTarget "RACFRCTests" */ = {
+		41902AEF1C997CB000022F95 /* Build configuration list for PBXNativeTarget "RACFRC-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41902AF01C997CB000022F95 /* Debug */,
