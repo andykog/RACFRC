@@ -3,6 +3,7 @@ import ReactiveCocoa
 import enum Result.NoError
 import CoreData
 @testable import RACFRC
+import MutableCollectionProperty
 
 class FilesViewController: UIViewController {
     
@@ -32,7 +33,7 @@ class FilesViewController: UIViewController {
                 let indexPath = NSIndexPath(forRow: indexPath[0], inSection: indexPath[1])
                 self.tableView?.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
             }
-        case .Update(let (indexPath, _)):
+        case .Update(let (indexPath, _, _)):
             if indexPath.count < 2 {
                 self.tableView.reloadSections(NSIndexSet(index: indexPath[0]), withRowAnimation: .Fade)
             } else {

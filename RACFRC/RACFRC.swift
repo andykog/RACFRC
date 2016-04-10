@@ -1,8 +1,8 @@
 import UIKit
 import CoreData
 import ReactiveCocoa
+import MutableCollectionProperty
 import enum Result.NoError
-//import RACMutableCollectionProperty
 
 public class RACFRCSection<T>: MutableCollectionProperty<T> {
     let name: String?

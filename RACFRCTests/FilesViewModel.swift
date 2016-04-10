@@ -9,6 +9,7 @@
 import Foundation
 import CoreData
 @testable import RACFRC
+import MutableCollectionProperty
 
 class FilesViewModel {
     
