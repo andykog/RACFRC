@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "41902AD71C997CAF00022F95"
-               BuildableName = "RACFRC-iOS.framework"
+               BuildableName = "RACFRC.framework"
                BlueprintName = "RACFRC-iOS"
                ReferencedContainer = "container:RACFRC.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "41902AE11C997CB000022F95"
-               BuildableName = "RACFRC-iOSTests.xctest"
+               BuildableName = "RACFRCTests.xctest"
                BlueprintName = "RACFRC-iOSTests"
                ReferencedContainer = "container:RACFRC.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "41902AD71C997CAF00022F95"
-            BuildableName = "RACFRC-iOS.framework"
+            BuildableName = "RACFRC.framework"
             BlueprintName = "RACFRC-iOS"
             ReferencedContainer = "container:RACFRC.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "41902AD71C997CAF00022F95"
-            BuildableName = "RACFRC-iOS.framework"
+            BuildableName = "RACFRC.framework"
             BlueprintName = "RACFRC-iOS"
             ReferencedContainer = "container:RACFRC.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "41902AD71C997CAF00022F95"
-            BuildableName = "RACFRC-iOS.framework"
+            BuildableName = "RACFRC.framework"
             BlueprintName = "RACFRC-iOS"
             ReferencedContainer = "container:RACFRC.xcodeproj">
          </BuildableReference>
